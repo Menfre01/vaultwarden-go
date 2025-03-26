@@ -1,10 +1,10 @@
 # vaultwarden-go
 
-这个仓库目是一个 RESTful API to the Bitwarden CLI 的 Client。
+This repository is a RESTful API client for the Bitwarden CLI own RESTful API Server.
 
 ## Requirements
 
-使用前请先确保你已经使用 bw CLI host your own RESTful API Server.
+Before using, please ensure you have hosted your own RESTful API Server using the bw CLI.
 
 ```sh
 bw serve --port <number> --hostname <hostname>
